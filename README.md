@@ -1,7 +1,7 @@
 # Backend-Assignment
 Project Title - FAQ Model
 
-Description - This project is a backend system designed for managing FAQs in multiple languages. It includes features such as WYSIWYG editor support, multilingual FAQ management, caching using Redis, Google Translate API integration.
+Description - This project is a backend system designed to manage FAQs in multiple languages. It includes features such as WYSIWYG editor support, multilingual FAQ management, caching using Redis, and Google Translate API integration.
 
 Features of this Project -
 - Multilingual FAQ management
@@ -41,7 +41,7 @@ Installation Guide for the Project -
 6. Access the project in your browser at `http://127.0.0.1:8000/`.
 
 Usage -
-- Once the server is running, you can access the FAQ management system through the frontend interface.
+- Once the server runs, you can access the FAQ management system through the frontend interface.
 - Admin users can add, update, or delete FAQs.
 - The system supports multiple languages, and the content will be automatically translated using the Google Translate API.
 
