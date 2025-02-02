@@ -3,6 +3,47 @@ Project Title - FAQ Model
 
 Description - This project is a backend system designed to manage FAQs in multiple languages. It includes features such as WYSIWYG editor support, multilingual FAQ management, caching using Redis, and Google Translate API integration.
 
+Process - 
+1. Open your Command prompt as administrator and create a virtual environment to make your Django project using python
+```bash
+python -m venv newenv
+```
+
+2. Activate your virtual environment
+```bash
+newenv\Scripts\activate
+```
+
+3. Install Django and all the dependencies required
+```bash
+pip install django djangorestframework django-ckeditor-5 googletrans==4.0.0-rc1 redis django-redis
+```
+
+4. After successfully installing all the dependencies, create your Django project and change the directory in your project folder
+```bash
+django-admin startproject backend
+cd backend
+```
+
+5. Then create the faq app in the project directory
+```bash
+python manage.py startapp faq
+```
+
+6. After starting the faq app, configure the already existing python files and and make new one as per the requirement
+   
+7. After doing all this, apply migrations
+```bash
+python manage.py makemigrations faq
+python manage.py migrate
+```
+
+8. After doing the above, run the server
+```bash
+python manage.py runserver
+```
+That's how the project is made
+
 Features of this Project -
 - Multilingual FAQ management
 - WYSIWYG editor support for easy content creation
