@@ -92,6 +92,3 @@ Contribution -
 3. Make your changes and commit (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request on GitHub.
-
-Contact
-For any inquiries, please contact me at khushijain21must@gmail.com.
